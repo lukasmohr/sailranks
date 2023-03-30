@@ -1,0 +1,110 @@
+body {font-family: 'Inter', sans-serif!important;}
+    .title {font-family: 'Archivo', sans-serif!important;}
+    .card {
+      border: 1px solid #ebebeb;
+      border-radius: 10px;
+      overflow:hidden;
+    }
+    .card-header {
+      box-shadow: none;
+      background: #F6F6F6;
+    }
+    .card-content.detail {
+      border-top:1px solid #ebebeb;
+      height:100%;
+    }
+    .button {
+      border-radius:4px!important;
+    }
+    .button.is-light {
+      background:#EBEBEB;
+    }
+    .is-primary {
+      background: #386FFF!important;
+      color:#ffffff!important;
+    }
+    .is-text:hover {text-decoration: none;}
+
+    .section.button-section {
+      padding-top: 0rem;
+  }
+
+.navbar-item, .navbar-link {color:#fff;}
+a.navbar-item:hover {text-decoration: underline;background:none!important;color:fff;}
+
+.section.header-section {
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+.is-text-white {
+  color:#fff;
+  text-decoration:none;
+  background:none;
+  border:none;
+}
+.is-text-white:hover{
+  color:#fff;
+  text-decoration:underline;
+  background:none;
+  border:none;
+}
+
+.is-text {
+  text-decoration:none!important;
+}
+
+.is-text:hover {
+  text-decoration:underline!important;
+}
+
+.title-container {
+  max-width:45rem;
+}
+
+.sub-container {
+  max-width:30rem;
+  opacity:0.9;
+}
+
+.is-outlined-blue {
+  background:none;
+  color: #fff;
+  border: 1px solid #fff;
+}
+/*
+.hero-body {
+  background: url(hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+*/
+
+.regatta-main-card {
+  height:100%;
+}
+
+@media screen and (max-width: 1023px) {
+.navbar-menu {
+    box-shadow:none;
+    padding: 0.5rem 0;
+}
+
+.buttons {
+  justify-content:center;
+}
+}
+/* This is just some basic styling to make the example look better */
+#toggle-div {
+  cursor: pointer;
+}
+#content-div {
+  display: none;
+}
+/* Only show content div on screens wider than 1023px */
+@media screen and (min-width: 1024px) {
+  #content-div {
+    display: block;
+  }
+}
